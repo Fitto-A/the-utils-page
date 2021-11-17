@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/the-utils-page/static/css/main.4b708336.chunk.css",
+    "main.js": "/the-utils-page/static/js/main.eb9735a4.chunk.js",
+    "main.js.map": "/the-utils-page/static/js/main.eb9735a4.chunk.js.map",
+    "runtime-main.js": "/the-utils-page/static/js/runtime-main.bfff7c4d.js",
+    "runtime-main.js.map": "/the-utils-page/static/js/runtime-main.bfff7c4d.js.map",
+    "static/js/2.f8df8dd1.chunk.js": "/the-utils-page/static/js/2.f8df8dd1.chunk.js",
+    "static/js/2.f8df8dd1.chunk.js.map": "/the-utils-page/static/js/2.f8df8dd1.chunk.js.map",
+    "index.html": "/the-utils-page/index.html",
+    "static/css/main.4b708336.chunk.css.map": "/the-utils-page/static/css/main.4b708336.chunk.css.map",
+    "static/js/2.f8df8dd1.chunk.js.LICENSE.txt": "/the-utils-page/static/js/2.f8df8dd1.chunk.js.LICENSE.txt",
+    "static/media/calc.c436991c.JPG": "/the-utils-page/static/media/calc.c436991c.JPG",
+    "static/media/color-generator.da47d22d.JPG": "/the-utils-page/static/media/color-generator.da47d22d.JPG",
+    "static/media/find-images.1f8523d0.JPG": "/the-utils-page/static/media/find-images.1f8523d0.JPG",
+    "static/media/lorem.e4a8b341.JPG": "/the-utils-page/static/media/lorem.e4a8b341.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfff7c4d.js",
+    "static/js/2.f8df8dd1.chunk.js",
+    "static/css/main.4b708336.chunk.css",
+    "static/js/main.eb9735a4.chunk.js"
+  ]
+}
