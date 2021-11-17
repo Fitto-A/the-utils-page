@@ -1,0 +1,41 @@
+.header-section{
+    display: flex;
+    justify-content: center;
+    background-color: #348899;
+    padding: 22px;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-section h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #F2EBC7;
+}
+.lorem-form label{
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #343642;
+}
+
+.lorem-form input{
+    border-radius: 5px;
+    margin: auto 2rem;
+    border-color: #343642;
+}
+.btn-lorem{
+    background-color: #343642;
+    color: #F2EBC7;
+}
+.lorem-text{
+    background-color: #F2EBC7;
+    padding: 3rem 15rem;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+.lorem-text p{
+    color: #343642;
+}

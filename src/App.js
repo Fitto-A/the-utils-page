@@ -1,24 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import FindImages from './pages/FindImages';
+import LinksApp from './pages/LinksApp';
+import ColorGenerator from './pages/ColorGenerator';
+import LoremIpsum from './pages/LoremIpsum';
+import Calculator from './pages/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename='/'>
+
+      <Navbar />
+      <Switch>
+      <Route exact path='/'>
+        <Home />
+      </Route>
+      <Route path='/find-images'>
+        <FindImages />
+      </Route>
+      <Route path='/links-app'>
+        <LinksApp />
+      </Route>
+      <Route path='/color-generator'>
+        <ColorGenerator />
+      </Route>
+      <Route path='/paragraphs-generator'>
+        <LoremIpsum />
+      </Route>
+      <Route path='/calculator'>
+        <Calculator />
+      </Route>
+      </Switch>
+
+    </Router>
+
   );
 }
 

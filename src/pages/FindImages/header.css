@@ -1,0 +1,33 @@
+html {
+    box-sizing: content-box;
+}
+
+html * {
+    box-sizing: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F2EBC7;
+    padding: 22px;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #348899;
+}
+
+header input {
+    outline: none;
+    border: solid 1px #979C9C;
+    padding: 10px 5px;
+    border-radius: 4px;
+    color: #348899;
+}
